@@ -29,20 +29,33 @@ public class SnakeTest {
 		assertTrue("1", s2FavFood);
 		
 	}
-		 
 	
+	// SivaPrasad Uppalapati - C0744659
+	@Test
+	public void testIsUnHealthyFunction() {
+
+		boolean s1FavFood = s1.isHealthy();
+		assertFalse("0", s1FavFood);
+		
+	}
+		 
 
 	// SivaPrasad Uppalapati - C0744659
 	@Test
-	public void testFitsInCageFunction() {
-		boolean cageLength = s1.fitsInCage(20);
-		if(getlength<cagelenghth )
-		assertTrue("")
-		
-		
-		
-		
+	public void testSnakeFitsInCageFunction() {
+		//Given Snakelength < Cagelength which becomes fits case
+		boolean s1Fits = s1.fitsInCage(20);
+		assertTrue("1", s1Fits);
 		
 	}
+	
+	// SivaPrasad Uppalapati - C0744659
+		@Test
+		public void testSnakeDoesnotFitsInCageFunction() {
+			//Given Cagelength  same as Snake length which does not fits case
+			boolean s2DoesnotFits = s2.fitsInCage(80);
+			assertFalse("0", s2DoesnotFits);
+			
+		}
 
 }
