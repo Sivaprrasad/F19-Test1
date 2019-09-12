@@ -29,8 +29,8 @@ public class SnakeTest {
 		assertTrue("1", s2FavFood);
 		
 	}
-		
-		
+		 
+	
 
 	// SivaPrasad Uppalapati - C0744659
 	@Test

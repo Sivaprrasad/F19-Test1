@@ -31,6 +31,7 @@ public class BlazeDemoTest {
 		driver.close();
 	}
 
+	//SivaPrasad Uppalapati - C0744659
 	@Test
 	public void testCheckDepartureCities() {
 		
@@ -44,6 +45,13 @@ public class BlazeDemoTest {
 		
 		
 		assertEquals("7", departureCities);
+		
+	}
+	
+	@Test
+	public void testVirginAmericaFlight() {
+		
+		
 		
 		
 	}
