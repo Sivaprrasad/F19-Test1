@@ -43,16 +43,13 @@ public class BlazeDemoTest {
 		List<WebElement> l = se.getOptions();
 		int departureCities = l.size();
 		
-		
-		assertEquals("7", departureCities);
+		assertEquals(7, departureCities);
 		
 	}
 	
 	@Test
 	public void testVirginAmericaFlight() {
-		
-		
-		
+	
 		
 	}
 
