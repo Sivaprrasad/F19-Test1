@@ -44,7 +44,9 @@ public class BlazeDemoTest {
 		int departureCities = l.size();
 		
 		assertEquals(7, departureCities);
-		
+		// Edited Just quotes.
+		// Declared departure Cities as int but given as string("7") in assert equals with previous commit.
+		// Edited in assertEquals to interger type, which is passed.
 	}
 	
 	@Test
